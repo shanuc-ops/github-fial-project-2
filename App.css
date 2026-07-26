@@ -1,0 +1,22 @@
+/* Styling for the Paradise Nursery Landing Page */
+.landing-page {
+  /* Replace 'background-image.jpg' with the path or URL to your nursery background image */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/background-image.jpg');
+  
+  /* Ensures the image covers the entire screen without stretching */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Full viewport dimensions */
+  min-height: 100vh;
+  width: 100%;
+  
+  /* Flexbox layout to center the content on top of the background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
